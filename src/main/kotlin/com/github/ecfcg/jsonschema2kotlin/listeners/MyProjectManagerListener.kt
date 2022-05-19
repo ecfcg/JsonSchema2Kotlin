@@ -1,9 +1,9 @@
-package org.jetbrains.plugins.template.listeners
+package com.github.ecfcg.jsonschema2kotlin.listeners
 
 import com.intellij.openapi.components.service
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.ProjectManagerListener
-import org.jetbrains.plugins.template.services.MyProjectService
+import com.github.ecfcg.jsonschema2kotlin.services.MyProjectService
 
 internal class MyProjectManagerListener : ProjectManagerListener {
 
